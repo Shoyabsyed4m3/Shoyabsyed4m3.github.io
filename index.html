@@ -463,11 +463,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
     <script>
-        $(document).ready(function(){
-            ScrollOut(
-                
-            );
-        });
+        
+      function myFunction(x) {
+        if (x.matches) {
+          $(document).ready(function(){ScrollOut({
+            
+          });});
+          
+          
+          
+        } 
+      }
+
+      var x = window.matchMedia("(min-width: 480px)");
+      myFunction(x); // Call listener function at run time
+      x.addListener(myFunction);
         
         
     </script>
