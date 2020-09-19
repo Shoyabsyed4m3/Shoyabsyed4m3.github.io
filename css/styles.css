@@ -767,6 +767,9 @@ footer {
   .social {
     text-align: center;
   }
+  body{
+    overflow-x: hidden;
+  }
 }
 @media only screen and (max-width: 480px) {
   #lead-content h1 {
@@ -918,4 +921,9 @@ h1{
 .leftslide[data-scroll="out"] {
   transform: translateX(80%);
 }
+}
+#contact-Final{
+  background-color: pink;
+  padding-bottom: 1cm;
+  padding-top: 0.1cm;
 }
