@@ -1,2 +1,5 @@
-# My Portfolio 
-https://shoyabsyed4m3.github.io/
+# My Portfolio
+My personal website and portfolio!
+
+TODO:
+Implement my blog!
