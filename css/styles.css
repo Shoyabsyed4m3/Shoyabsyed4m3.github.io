@@ -901,6 +901,10 @@ h1{
 }
 
 @media screen and (min-width: 480px) {
+
+  body{
+    overflow-x: hidden;
+  }
  .rightslide[data-scroll] {
   offset: 400px;
   transition: 2s;
